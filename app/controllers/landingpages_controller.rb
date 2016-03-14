@@ -28,7 +28,7 @@ class LandingpagesController < ApplicationController
 
     respond_to do |format|
       if @landingpage.save
-        format.html { redirect_to @landingpage, notice: 'Landingpage was successfully created.' }
+        format.html { redirect_to new_landingpage_url, notice: 'Landingpage was successfully created.' }
         format.json { render :show, status: :created, location: @landingpage }
       else
         format.html { render :new }

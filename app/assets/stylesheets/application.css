@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   font-family: Poppins, sans-serif !important;
+   background-image: url("/images/bkg-plane.png");
+ }
+
+ input.btn {
+   color: #000;
+ }
+
+ a.btn {
+   text-decoration: none;
+   color: #000;
+ }
+
+ td {
+   text-align: left;
+ }
+
+ .btn, .btn.primary {
+   background: none !important;
+ }
+
+ .btn:hover {
+   color: #000 !important;
+   text-decoration: underline !important;
+ }
+
+ footer {
+   margin-top: 3em;
+   height: 6em;
+ }
+
+ address {
+   display: inline-block;
+ }
+
+ #address {
+   float: left;
+   height: 4em;
+   margin-top: -2em;
+ }
+
+ #email {
+   float: right;
+   height: 4em;
+   margin-top: -2em;
+ }

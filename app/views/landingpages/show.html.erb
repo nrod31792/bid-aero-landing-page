@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @landingpage.company %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @landingpage.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @landingpage.email %>
+</p>
+
+<%= link_to 'Edit', edit_landingpage_path(@landingpage) %> |
+<%= link_to 'Back', landingpages_path %>

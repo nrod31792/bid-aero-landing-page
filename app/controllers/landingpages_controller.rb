@@ -42,7 +42,7 @@ class LandingpagesController < ApplicationController
   def update
     respond_to do |format|
       if @landingpage.update(landingpage_params)
-        format.html { redirect_to @landingpage, notice: 'Landingpage was successfully updated.' }
+        format.html { redirect_to 'landingpages#new', notice: 'Landingpage was successfully updated.' }
         format.json { render :show, status: :ok, location: @landingpage }
       else
         format.html { render :edit }

@@ -2,6 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+img {max-width:100%}
+
+
+h1 {
+  text-align: center
+
+}
+
+
 #landingpages-form {
   margin: auto;
   width: 70%;
@@ -29,7 +38,7 @@
 }
 
 #landingpages-form {
-  background-image: image-url("bkg-plane.jpeg");
+  background-image: image-url("bidaero.jpg");
   background-size: 100% auto;
   height: 100vh;
 

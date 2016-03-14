@@ -41,8 +41,10 @@
  }
 
  footer {
+
+   padding: 1em;
    margin-top: 3em;
-   height: 6em;
+   height: 1em;
  }
 
  address {
@@ -51,12 +53,12 @@
 
  #address {
    float: left;
-   height: 4em;
+   height: 2em;
    margin-top: -2em;
  }
 
  #email {
    float: right;
-   height: 4em;
+   height: 2em;
    margin-top: -2em;
  }

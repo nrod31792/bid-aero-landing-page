@@ -19,25 +19,25 @@
  }
 
  input.btn {
-   color: #000;
+   color: #00B410;
  }
 
  a.btn {
    text-decoration: none;
-   color: #000;
+   color: ##00B410;
  }
 
  td {
    text-align: left;
  }
 
- .btn, .btn.primary {
-   background: none !important;
+ .btn .btn.primary {
+   background: #00B410;
  }
 
  .btn:hover {
-   color: #000 !important;
-   text-decoration: underline !important;
+   color: #00B410 ;
+   text-decoration: underline;
  }
 
  footer {
